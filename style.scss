@@ -1,0 +1,108 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.main{
+    height: 1024px;
+    background-image: url(img/background.jpg);
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #000915;
+}
+.main__title{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 78px;
+    color: #FFFFFF;
+    padding-top: 217px;
+}
+.center{
+    padding-left: calc(50% - 600px);
+    padding-right: calc(50% - 600px);
+}
+.main__text{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 32px;
+    color: #FFFFFF;
+    padding-top: 32px;
+    max-width: 481px;
+}
+.main__form{
+    width: 234px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main__button{
+    width: 234px;
+    height: 48px;
+    margin-top: 44px;
+    background: #9C0332;
+    border: none;
+    border-radius: 30px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+
+}
+.main__button:hover{
+    background: #EB443F;
+}
+.nav{
+    min-height: 556px;
+    background: #000915;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    flex-wrap: wrap;
+    align-content: center;
+    box-sizing: border-box;
+}
+.nav__item{
+    width: 378px;
+    height: 300px;
+    border-radius: 16px;
+}
+.nav__item:hover{
+    border: 3px solid #44D2FF;
+}
+.nav__item1{
+    background-image: url(img/nav1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.nav__item2{
+    background-image: url(img/nav2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.nav__item3{
+    background-image: url(img/nav3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.nav__text{
+    position: absolute;
+    margin-left: 32px;
+    margin-top: 236px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    color: #FFFFFF;
+}
+@import 'mobile';
