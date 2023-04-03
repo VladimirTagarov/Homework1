@@ -75,6 +75,7 @@
   flex-wrap: wrap;
   align-content: center;
   box-sizing: border-box;
+  gap: 28px;
 }
 
 .nav__item {
