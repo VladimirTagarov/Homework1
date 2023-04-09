@@ -3,12 +3,12 @@
         padding-left: 16px;
         padding-right: 16px;
     }
-    .main__title{
+    .title{
         font-size: 32px;
         line-height: 39px;
         text-align: center;
     }
-    .main__text{
+    .text{
         font-size: 14px;
         line-height: 22px;
         text-align: center;
@@ -19,11 +19,20 @@
         justify-content: center;
         align-items: center;
         }
-    .main__button{
+    .button{
         display: flex;
         justify-content: center;
         align-items: center;
         margin-left: auto;
         margin-right: auto;
+    }
+    .nav{
+        height: 1220px;
+        justify-content:center;
+        align-content: center;
+
+    }
+    .section{
+        height: 656px;
     }
 }
