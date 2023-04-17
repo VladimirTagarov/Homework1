@@ -33,6 +33,12 @@
 
     }
     .section{
-        height: 656px;
+        height: 654px;
+    }
+    .game{
+        height: 654px;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-around;
     }
 }

@@ -43,4 +43,3 @@ switch (monthNumber) {
         break;
 }
 }
-
