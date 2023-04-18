@@ -240,4 +240,7 @@
     flex-direction: column-reverse;
     justify-content: space-around;
   }
+  .game__image {
+    width: 100%;
+  }
 }/*# sourceMappingURL=style.css.map */
